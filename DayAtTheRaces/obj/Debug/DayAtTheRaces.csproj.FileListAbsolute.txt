@@ -1,0 +1,9 @@
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\bin\Debug\DayAtTheRaces.exe.config
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\bin\Debug\DayAtTheRaces.exe
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\bin\Debug\DayAtTheRaces.pdb
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.Form1.resources
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.Properties.Resources.resources
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.csproj.GenerateResource.Cache
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.exe
+\\mac\home\documents\visual studio 2015\Projects\DayAtTheRaces\DayAtTheRaces\obj\Debug\DayAtTheRaces.pdb
