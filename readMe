@@ -1,0 +1,26 @@
+chickenRun
+
+Joe, Bob and Al love going to the races but they’re tired of loosing all their money. Chicken Run / Day At The Races lets the guys get on a race of a different kind, without really spending any money.
+
+*** The Guys
+Joe, Bob and Al are about to watch a chicken race. Joe has 50 bucks to bet with, Bob has 75 and Al had 45. Before the race, they decide if they want to bet, how much they want to risk, and on which chick they want to win. 
+
+*** The Bets
+The betting parlour keeps track of how much cash each guy has and what bet he’s placed. There’s a minimum bet of 5 bucks, and each person can only place one bet per race.
+The parlour checks to make sure that the guy who is betting has enough cash to cover his bet - so they can’t go in the red.
+Every bet is double-or-nothing. The winner either doubles his money or loses the bet. 
+
+*** The Race
+There are four chickens that follow a single escape route (track) out of the farm. The winner is the first chicken to reach the end of the track - the race is totally random. 
+
+—————————————————————
+
+The program contains three classes;
+
+The Chick class holds properties of StartingPosition, RaceTrackLength, MyPictureBox, Location and Randomizer. It contains two methods; Run() which moves the chickens along their escape route by randomly generating an amount for them to jump right. And TakeStatingPosition() which resets their position at the end of a race.
+
+The Guy class holds properties of Name, MyBet, Cash, MyRadioButton, and MyLabel. It contains four methods; UpdateLabels() takes the details of the bet and displays them on screen; PlaceBet(0 takes the bet amount and selected chicken and stores it in the Bet field; ClearBet() resets the bet value to zero; Collect() pays out to the winner and updates their labels.
+
+The Bet class holds properties of Amount, Chick and Bettor. It contains two methods; GetDescription() which produces a string of who has bet, and who has not; PayOut() accepts the winner of the race and instructs the right return amount (plus or less the bet).
+
+The Form holds the control objects, as well as an array of Guy objects and Chick objects. Each of the guy objects has its own Bet object. The form passes the chosen bettor, chicken and amounts to the class and contains click events of the radioButtons, Bet and Race buttons.
